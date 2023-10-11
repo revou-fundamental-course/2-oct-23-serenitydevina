@@ -1,0 +1,65 @@
+.judul {
+text-align: center;
+font-family:"Lucida Console", "Courier New", monospace;
+}
+
+body {
+    background-color: silver;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#Celcius{
+    height: 50px;
+    width: 500px;
+    border : 1px solid black;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+label{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    width: 95%;
+
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    margin: 30px ;
+    background-color: whitesmoke;
+    width: 100px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 3px black;
+    cursor: pointer;
+}
+
+.button:active{
+background-color: white;
+box-shadow: 0 2px grey;
+}
+
+.Fahrenheit{
+    background-color: azure;
+    display: inline-block;
+    border: 1px solid black;
+    height: 50px;
+    width: 500px;
+}
+
+.CaraKalkulasi{
+    background-color: aliceblue;
+    display: inline-block;
+    border: 1px solid black;
+    height: 100px;
+    width: 500px;
+}
+
+#footer {
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Suhu</title>
+    <link rel ="stylesheet" href ="css/style.css">
+    <script src="js/script.js">
+    
+    </script>
+</head>
+<body>
+    <form id="formkonversisuhu">
+        <header>
+            <h1 class="judul"> Kalkulator Konversi Suhu </h1>
+           
+        </header>
+       <main>
+            <p> Cara Penggunaan :
+                <ol>
+                   <div><li>Masukkan terlebih dahulu nilai suhu dalam bentuk <i>Celcius</i>. </li></div><div>
+                    <br>
+                   <div><li>Setelah itu klik tomboh konversi untuk dapatkan hasil konversi suhu dalam bentuk <i>Fahrenheit (°F)</i> beserta hasil perhitungannya.</li></div>
+                </ol>
+                Selamat Mencoba ^^
+            </p>
+            <br>
+            <fieldset>
+                <legend>Konversi Suhu</legend>
+                <label for="Celcius" >Celcius (°C)</label>
+                <br>
+                <input type="number" id="Celcius" placeholder ="masukkan nilai suhu exp: 10" oninput="celcius(this.innerText)">
+                <br>
+                <nav>
+                  <input type="button" class="button" onClick="convert()" id="c" value="Konversi">&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="reset" class="button" id="r" value="Reset" > 
+                 
+                </nav>
+                <br>
+                <label for="Fahrenheit"> Fahrenheit (°F)</label>
+                <br>
+                <div class="Fahrenheit" id="f" >
+                 <p id="hasil"></p>   
+                </div>
+                <br>
+                <label for="Cara kalkulasi"> Cara Kalkukasi : </label>
+                <br>
+                <div class="CaraKalkulasi" id="cara">
+                    <p id="hasilperhitungan"></p>
+
+                </div>
+            </fieldset>
+            <footer>
+                <p id="footer"> Terima kasih 😀</p>
+            </footer>
+       </main>
+    </article>
+   
+
+</body>
+</html>
